@@ -1,0 +1,26 @@
+body,html{width: 100%;}
+
+body {background-color: #000000;margin: 0;overflow: hidden;}
+#info {position: absolute;top: 0; width: 100%;color: #ffffff;padding: 5px;font-family:Monospace;font-size:13px;font-weight: bold;text-align:center;}
+a {color: #ffffff;}
+
+
+/*控制器*/
+.controll{width: 900px;padding: 10px;position: absolute;bottom:10px;left:50%;margin-left: -450px;height: 20px;background: rgba(0,0,0,0.8)}
+
+/*按钮组*/
+.btns>button{z-index: 100;position:absolute;bottom: 5px;border: 0;background: 0;width: 30px;height: 30px;background-size: 100% 100%;padding: 0}
+
+/*视频控制条样式*/
+.coll{position: absolute;bottom: 17px;left: 80px;width: 500px;}
+.coll span{display: block;height: 4px;width: 100%;margin-left: 2%;background-color: #505050;border-radius: 4px;margin-top: 11px;float:left;}
+.coll span b:nth-child(1){z-index:1;float:left;position:relative;width: 0;background-color: #b4b4b4;display: block;height: 100%;border-radius: 4px;}
+.coll span b:nth-child(2){z-index:2;position:relative;float: left;width: 8px;height: 8px;background-color: white;border-radius: 8px;margin-top: -2px;margin-left: -8px;}
+.coll span b:nth-child(3){position: relative;background-color: white;display: block;height: 4px;border-radius: 4px;}
+/*音频控制条样式*/
+.voicecoll{position: absolute;bottom: 17px;left:680px;width:150px;}
+.voicecoll span{display: block;height: 4px;width: 100%;margin-left: 2%;background-color: #505050;border-radius: 4px;margin-top: 11px;float:left;}
+.voicecoll span b:nth-child(1){z-index:1;float:left;position:relative;width: 0;background-color: #b4b4b4;display: block;height: 100%;border-radius: 4px;}
+.voicecoll span b:nth-child(2){z-index:2;position:relative;float: left;width: 8px;height: 8px;background-color: white;border-radius: 8px;margin-top: -2px;margin-left: -8px;}
+.voicecoll span b:nth-child(3){position: relative;background-color: white;display: block;height: 4px;border-radius: 4px;}
+

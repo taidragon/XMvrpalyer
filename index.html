@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>three.js webgl - equirectangular video panorama</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <link rel="stylesheet" href="XMvrplayer.css"/>
+		<script src="jquery-3.1.0.min.js"></script>
+		<script src="three.js"></script>
+		<script src="XMvrplayer.js"></script>
+	</head>
+	<body>
+		<div id="pano" class="pwxpanorama">
+
+		</div>
+
+		<script>
+            $(function(){
+                $("#pano").pwxpanorama({
+                    videourl : "mv1.mp4"  //设置图片宽度
+                });
+            });
+		</script>
+
+	</body>
+</html>
